@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/background_top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top__title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 788px;
+  padding-top: 217px;
+}
+.top__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  max-width: 481px;
+  max-height: 64px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+.top__text-bold {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.top__button {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  background: #9C0332;
+  height: 49px;
+  width: 234px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top:hover {
+  text-decoration: none;
+}
+
+.games {
+  background-image: url(img/background_menu.jpg);
+  height: 556px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  align-content: center;
+}
+.games__game {
+  position: relative;
+  display: inline-block;
+}
+.games__game-img {
+  border-radius: 16px;
+}
+.games__game-item1 {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.games__game-item2 {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.games__game-item3 {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}/*# sourceMappingURL=style.css.map */
