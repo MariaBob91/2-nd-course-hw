@@ -47,7 +47,6 @@ a {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
-  line-height: 32px;
 }
 .top__button {
   color: #FFF;
@@ -81,27 +80,7 @@ a {
 .games__game-img {
   border-radius: 16px;
 }
-.games__game-item1 {
-  position: absolute;
-  bottom: 32px;
-  left: 32px;
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
-}
-.games__game-item2 {
-  position: absolute;
-  bottom: 32px;
-  left: 32px;
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
-}
-.games__game-item3 {
+.games__game-item {
   position: absolute;
   bottom: 32px;
   left: 32px;
