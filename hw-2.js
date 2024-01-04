@@ -24,7 +24,7 @@ let result = 2**5;
 alert (result);
 
 // Задание 6
-let a = 9;
+let c = 9;
 let b = 2;
 let remainder = c % b;
 alert (remainder);
