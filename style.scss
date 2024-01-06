@@ -65,10 +65,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
 
-  &:hover {
-    text-decoration: none;
+    &:hover {
+      border-radius: 30px;
+      background: #EB443F;
+      cursor: url(img/Vector_finger.png), auto;
+    }
   }
 }
 
@@ -84,8 +86,17 @@ a {
     position: relative;
     display: inline-block;
 
+    &:hover {
+      border-radius: 16px;
+      border: 3px solid #44D2FF;
+    }
+
     &-img {
       border-radius: 16px;
+
+      &:hover {
+        cursor: url(img/Vector_finger.png), auto;
+      }
     }
 
     &-item {
@@ -100,3 +111,5 @@ a {
     }
   }
 }
+
+@import 'mobile';

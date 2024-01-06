@@ -61,8 +61,10 @@ a {
   align-items: center;
   justify-content: center;
 }
-.top:hover {
-  text-decoration: none;
+.top__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+  cursor: url(img/Vector_finger.png), auto;
 }
 
 .games {
@@ -77,8 +79,15 @@ a {
   position: relative;
   display: inline-block;
 }
+.games__game:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+}
 .games__game-img {
   border-radius: 16px;
+}
+.games__game-img:hover {
+  cursor: url(img/Vector_finger.png), auto;
 }
 .games__game-item {
   position: absolute;
@@ -89,4 +98,49 @@ a {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/mobile_background.jpg);
+    height: 735px;
+  }
+  .top__title {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 32px;
+    padding-top: 239px;
+    max-width: 343px;
+  }
+  .top__text {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+  }
+  .top__text-bold {
+    font-size: 14px;
+  }
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: #000915;
+    height: 1221px;
+  }
+  .games__game-img {
+    width: 343px;
+  }
 }/*# sourceMappingURL=style.css.map */
