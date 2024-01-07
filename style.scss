@@ -1,122 +1,115 @@
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-  }
-  
+  font-family: "Montserrat", sans-serif;
+}
+
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-  }
-  
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 .top {
-    height: 1024px;
-    background-image: url(img/background_top.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-        &__title {
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 64px;
-        font-weight: 700;
-        max-width: 788px;
-        padding-top: 217px;
-        }
+  height: 1024px;
+  background-image: url(img/background_top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-        &__text {
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 32px;
-        max-width: 481px;
-        max-height: 64px;
-        padding-top: 32px;
-        padding-bottom: 44px;
-        }
+  &__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 788px;
+    padding-top: 217px;
+  }
 
-        &__text-bold{
-            color: #FFF;
-            font-family: Montserrat;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 32px;
-        }
+  &__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 481px;
+    max-height: 64px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+  }
 
-        &__button {
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 18px;
-        font-weight: 400;
-        border-radius: 30px;
-        background: #9C0332;
-        height: 49px;
-        width: 234px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-        &:hover {
-            text-decoration: none;
-        }
+  &__text-bold {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__button {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 30px;
+    background: #9C0332;
+    height: 49px;
+    width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      border-radius: 30px;
+      background: #EB443F;
+      cursor: url(img/Vector_finger.png), auto;
+    }
+  }
 }
 
 .games {
-background-image: url(img/background_menu.jpg);
-height: 556px;
-display: grid;
-grid-template-columns: repeat(12, 1fr );
-gap: 32px;
-align-content: center;
+  background-image: url(img/background_menu.jpg);
+  height: 556px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  align-content: center;
 
-    &__game {
+  &__game {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 
-        &-img {
-            border-radius: 16px;
-        }
-
-        &-item1 {
-        position: absolute;
-        bottom: 32px;
-        left: 32px;
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 32px;
-        }
-
-        &-item2 {
-        position: absolute;
-        bottom: 32px;
-        left: 32px;
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 32px;
-        }
-
-        &-item3 {
-        position: absolute;
-        bottom: 32px;
-        left: 32px;
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 32px;
-        }
+    &:hover {
+      border-radius: 16px;
+      border: 3px solid #44D2FF;
     }
+
+    &-img {
+      border-radius: 16px;
+
+      &:hover {
+        cursor: url(img/Vector_finger.png), auto;
+      }
+    }
+
+    &-item {
+      position: absolute;
+      bottom: 32px;
+      left: 32px;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+    }
+  }
 }
+
+@import 'mobile';
