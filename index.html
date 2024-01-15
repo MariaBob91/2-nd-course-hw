@@ -7,7 +7,7 @@
     <title>Главная страница</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -32,6 +32,18 @@
             <a class="games__game-item" href="#">Игра 3</a>
         </div>
     </div>
+    <div class="gameSeason center">
+        <div class="gameSeason__leftPart">
+            <h1 class="gameSeason__title-Large">Времена года!</h1>
+            <h1 class="gameSeason__title-Mob">Времена года</h1>
+            <p class="gameSeason__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="alert(monthNumber());" class="top__button">Играть!</button>
+        </div>
+        <div>
+            <img class="gameSeason__img" src="img/video_game.png" alt="image">
+        </div>
+    </div>
+    <script src="./hw-5.js"></script>
 </body>
 
 </html>

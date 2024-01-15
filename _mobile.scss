@@ -48,4 +48,37 @@
             width: 343px;
         }
     }
+
+    .gameSeason {
+        flex-direction: column;
+        justify-content: center;
+
+        &__leftPart {
+            align-items: center;
+        }
+
+        &__title {
+            &-Mob {
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 700;
+                display: flex;
+            }
+    
+            &-Large {
+                display: none;
+            }
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__img {
+            width: 344px;
+        }
+    }
 }
