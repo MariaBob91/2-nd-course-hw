@@ -112,4 +112,40 @@ a {
   }
 }
 
+.gameSeason {
+  height: 800px;
+  background-color: #000915;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 135px;
+
+
+  &__leftPart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__title {
+      &-Large {
+      color: #FFF;
+      font-size: 48px;
+      font-weight: 700;
+      }
+
+      &-Mob {
+        display: none;
+      }
+  }
+
+  &__text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+}
+
 @import 'mobile';
