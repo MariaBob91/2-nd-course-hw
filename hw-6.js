@@ -17,8 +17,8 @@ const numbs = [1, 5, 4, 10, 0, 3];
 let res;
 numbs.forEach((el, i) => {
     if (el === 4) res = i;
-}
-console.log(res);)
+})
+console.log(res);
 
 
 //Задание 3
@@ -87,15 +87,11 @@ console.log(arr[i] + arr[i + 1]);
 
 
 //Задание 11
-function getSquare(arr) {
-	const result = [];
-	for (let i = 0; i < arr.length; i++) {
-		result.push(arr[i] ** 2);
-	}
-	return result;
+let result = [9, 8, 7, 6, 5];
+function arr(nums) {
+return nums.map(num => num ** 2);
 }
-
-console.log(getSquare([9, 14, 21]));
+console.log(arr(result));
 
 
 //Задание 12
@@ -112,8 +108,7 @@ console.log(arrNew);
 
 //Задание 13
 function filterPositive(array) {
-    const result = array.filter(el => el < 0);
-    return result;
+    return array.filter(el => el < 0);
 }
 console.log(filterPositive([-1, 0, 5, -10, 56]));
 console.log(filterPositive([-25, 25, 0, -1000, -2]));
