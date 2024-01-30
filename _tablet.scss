@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .games {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 1221px;
+    }
+
+    .gameWords {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+        &__text {
+            text-align: center;
+        }
+
+        &__rightPart {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+    }
+    
+    .gameSeason {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+        &__text {
+            text-align: center;
+        }
+
+        &__leftPart {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    } 
+}
