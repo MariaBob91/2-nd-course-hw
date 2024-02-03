@@ -75,6 +75,35 @@
             font-size: 14px;
             line-height: 22px;
             text-align: center;
+            max-width: 343px;
+        }
+
+        &__img {
+            width: 344px;
+        }
+    }
+
+    .gameWords {
+        flex-direction: column;
+        justify-content: center;
+
+        &__rightPart {
+            align-items: center;
+        }
+
+        &__title {
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 700;
+                display: flex;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            max-width: 343px;
         }
 
         &__img {

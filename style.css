@@ -129,6 +129,32 @@ a {
   line-height: 32px;
 }
 
+.gameWords {
+  height: 800px;
+  background-color: #000915;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 135px;
+}
+.gameWords__rightPart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.gameWords__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+.gameWords__text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -193,8 +219,82 @@ a {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
+    max-width: 343px;
   }
   .gameSeason__img {
     width: 344px;
+  }
+  .gameWords {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gameWords__rightPart {
+    align-items: center;
+  }
+  .gameWords__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+  }
+  .gameWords__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 343px;
+  }
+  .gameWords__img {
+    width: 344px;
+  }
+}
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 1221px;
+  }
+  .gameWords {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .gameWords__text {
+    text-align: center;
+  }
+  .gameWords__rightPart {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  .gameSeason {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .gameSeason__text {
+    text-align: center;
+  }
+  .gameSeason__leftPart {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
